@@ -1,23 +1,19 @@
 
-import OfferCard from "./components/OfferCard";
+import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import SocialLinks from "./components/SocialLinks";
-import offers from "./data";
+import Offres from "./components/Offres"; // À adapter selon votre structure réelle
 
-export default function App() {
-  return (<>
-    <Header />
+function App() {
+  return (
+    <div className="flex flex-col min-h-screen bg-[#1d1d1d] text-white font-[Inter]">
       <Header />
-      <section className="bg-[#1d1d1d] py-10 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {offers.map((offer, index) => (
-            <OfferCard key={index} {...offer} />
-          ))}
-        </div>
-        <SocialLinks />
-      </section>
+      <main className="flex-1 pt-[80px] px-4 sm:px-8 md:px-16">
+        <Offres />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
+
+export default App;
