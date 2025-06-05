@@ -44,15 +44,6 @@ const offers = [
   link: "https://record.sc2707.com/_gPnXtwJDC42RpNYGCjuhmmNd7ZgqdRLk/1/?pg=4",
   tags: ["Crypto", "CB"]
     },
-  {
-  title: "X7Casino",
-  bonus: "500%",
-  description: "50 Free Spins sur Big Bass Bonanza + 10% Cashback chaque lundi",
-  color: "linear-gradient(to right, #e63946, #3a86ff)",
-  logo: "/logos/x7.png",
-  link: "https://record.sc2707.com/_gPnXtwJDC42RpNYGCjuhmmNd7ZgqdRLk/1/?pg=4",
-  tags: ["Crypto", "CB"]
-},
     {
   title: "Slot",
   bonus: "200% jusqu’à 20 000€",
