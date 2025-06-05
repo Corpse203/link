@@ -20,7 +20,7 @@ const offers = [
 {
   title: "Samba Slots",
   bonus: " 200% de BONUS jusqu’à 5'000€",
-  description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",,
+  description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
   color: "linear-gradient(to right, #fcd34d, #fbbf24)",
   logo: "/logos/samba.png",
   link: "https://record.discasinoaffiliates.com/_LLmqEcvAbica0J_CtyaYcGNd7ZgqdRLk/1/",
