@@ -60,12 +60,12 @@ const offers = [
 
     {
         title: "BetBlast",
-        bonus: "200% de BONUS jusqu’à 5'000€",
-        description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
+        bonus: "200% jusqu’à 7500€",
+        description: "50 Free Spins sur Wanted Dead or a Wild",
         color: "linear-gradient(to right, #00c851, #007e33)",
-        logo: "/logos/betlast.png",
+        logo: "/logos/betblast.png",
         link: "https://bit.ly/SkrymiBetblast",
-        tags: ["Crypto", "CB", "Retrait en 1h"]
+        tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
     }
 ];
 
