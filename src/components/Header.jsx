@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -13,9 +12,10 @@ const Header = () => {
             <span className="text-2xl font-extrabold tracking-wide text-white drop-shadow-sm">🎰 SKRYMI</span>
           </div>
 
+          {/* Desktop menu */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#offres" className="text-white hover:text-yellow-200 font-medium transition duration-150"></a>
-            <a href="#contact" className="text-white hover:text-yellow-200 font-medium transition duration-150"></a>
+            <a href="#offres" className="text-white hover:text-yellow-200 font-medium transition duration-150">Offres</a>
+            <a href="#contact" className="text-white hover:text-yellow-200 font-medium transition duration-150">Contact</a>
             <a
               href="https://calls-bot.onrender.com"
               target="_blank"
@@ -24,12 +24,6 @@ const Header = () => {
             >
               📞 Call Bot
             </a>
-          </div>
-
-
-          <div className="hidden md:flex space-x-10 items-center">
-            <a href="#offres" className="text-white hover:text-yellow-200 font-medium transition duration-150"></a>
-            <a href="#contact" className="text-white hover:text-yellow-200 font-medium transition duration-150"></a>
             <a
               href="https://discord.gg/wN6r88VAg2"
               target="_blank"
@@ -40,12 +34,38 @@ const Header = () => {
             </a>
           </div>
 
-          
-
+          {/* Mobile menu toggle */}
+          <div className="md:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-white">
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+          </div>
         </div>
       </div>
 
-      
+      {/* Mobile menu content */}
+      {isOpen && (
+        <div className="md:hidden bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 px-4 pt-2 pb-4 space-y-3">
+          <a href="#offres" className="block text-white hover:text-yellow-200 font-medium">Offres</a>
+          <a href="#contact" className="block text-white hover:text-yellow-200 font-medium">Contact</a>
+          <a
+            href="https://calls-bot.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white text-red-600 font-bold py-1.5 px-4 rounded-full shadow hover:bg-yellow-100 transition duration-200"
+          >
+            📞 Call Bot
+          </a>
+          <a
+            href="https://discord.gg/wN6r88VAg2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white text-red-600 font-bold py-1.5 px-4 rounded-full shadow hover:bg-yellow-100 transition duration-200"
+          >
+            Discord
+          </a>
+        </div>
+      )}
     </header>
   );
 };
