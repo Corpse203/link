@@ -41,28 +41,11 @@ const Header = () => {
           </div>
 
           
-          <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
+
         </div>
       </div>
 
-      {isOpen && (
-        <div className="md:hidden bg-gradient-to-b from-yellow-400 via-orange-500 to-red-600 px-4 pb-4">
-          <a href="#offres" className="block text-white py-2 font-medium">Offres</a>
-          <a href="#contact" className="block text-white py-2 font-medium">Contact</a>
-          <a
-            href="https://calls-bot.onrender.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block mt-2 bg-white text-red-600 font-bold py-2 px-4 rounded-full text-center shadow hover:bg-yellow-100 transition"
-          >
-            📞 Call Bot
-          </a>
-        </div>
-      )}
+      
     </header>
   );
 };
