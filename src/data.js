@@ -13,7 +13,7 @@ const offers = [
         title: "Winningz",
         bonus: "CODE : WZMEGA - 200% de bonus jusqu’à 20 000€",
         description: "200 Free Spins offerts (50 par jour pendant 4 jours) + Jusqu'à 20% de cashback",
-        color: "linear-gradient(to right, #e63946, #3a86ff)",
+        color: "linear-gradient(to right, #3a86ff, #e63946 )",
         logo: "/logos/winningz.png",
         link: "https://bit.ly/SkrymiWinningz",
         tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
