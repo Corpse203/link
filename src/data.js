@@ -6,7 +6,7 @@ const offers = [
         color: "linear-gradient(to right, #00c851, #007e33)",
         logo: "/logos/betify.jpg",
         link: "https://record.betify.partners/_xfcc71saF9DqaEn2LeVpkWNd7ZgqdRLk/1/",
-        tags: ["Crypto", "CB"],
+        tags: ["Crypto", "CB", "VIP Rank"],
     },
 
     {
@@ -16,7 +16,7 @@ const offers = [
         color: "linear-gradient(to right, #e63946, #3a86ff)",
         logo: "/logos/winningz.png",
         link: "https://bit.ly/SkrymiWinningz",
-        tags: ["Crypto", "CB"]
+        tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
     },
 
     {
