@@ -56,6 +56,16 @@ const offers = [
         logo: "/logos/x7.png",
         link: "https://record.sc2707.com/_gPnXtwJDC42RpNYGCjuhmmNd7ZgqdRLk/1/?pg=4",
         tags: ["Crypto", "CB"]
+    },
+
+    {
+        title: "BetBlast",
+        bonus: "200% de BONUS jusqu’à 5'000€",
+        description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
+        color: "linear-gradient(to right, #00c851, #007e33)",
+        logo: "/logos/betlast.png",
+        link: "https://bit.ly/SkrymiBetblast",
+        tags: ["Crypto", "CB", "Retrait en 1h"]
     }
 ];
 
