@@ -32,7 +32,7 @@ const offers = [
         title: "BetBlast",
         bonus: "200% jusqu’à 7500€",
         description: "50 Free Spins sur Wanted Dead or a Wild",
-        color: "linear-gradient(to right,  #007e33, ##808080)",
+        color: "linear-gradient(to right,  #007e33, #808080)",
         logo: "/logos/betblast.png",
         link: "https://bit.ly/SkrymiBetblast",
         tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
