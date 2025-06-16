@@ -44,6 +44,15 @@ const offers = [
   link: "https://record.sc2707.com/_gPnXtwJDC42RpNYGCjuhmmNd7ZgqdRLk/1/?pg=4",
   tags: ["Crypto", "CB"]
     },
+  {
+  title: "Winningz",
+  bonus: "200% de bonus jusqu’à 20 000€",
+  description: "200 Free Spins offerts (50 par jour pendant 4 jours)",
+  color: "linear-gradient(to right, #e63946, #3a86ff)",
+  logo: "/logos/winningz.png",
+  link: "https://bit.ly/SkrymiWinningz",
+  tags: ["Crypto", "CB"]
+    },
     {
   title: "Slot",
   bonus: "200% jusqu’à 20 000€",
