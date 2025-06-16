@@ -46,8 +46,7 @@ const Header = () => {
       {/* Mobile menu content */}
       {isOpen && (
         <div className="md:hidden bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 px-4 pt-2 pb-4 space-y-3">
-          <a href="#offres" className="block text-white hover:text-yellow-200 font-medium">Offres</a>
-          <a href="#contact" className="block text-white hover:text-yellow-200 font-medium">Contact</a>
+
           <a
             href="https://calls-bot.onrender.com"
             target="_blank"
