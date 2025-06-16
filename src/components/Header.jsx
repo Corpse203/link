@@ -14,8 +14,7 @@ const Header = () => {
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#offres" className="text-white hover:text-yellow-200 font-medium transition duration-150">Offres</a>
-            <a href="#contact" className="text-white hover:text-yellow-200 font-medium transition duration-150">Contact</a>
+
             <a
               href="https://calls-bot.onrender.com"
               target="_blank"
