@@ -28,7 +28,15 @@ const offers = [
         link: "https://record.discasinoaffiliates.com/_LLmqEcvAbica0J_CtyaYcGNd7ZgqdRLk/1/",
         tags: ["Crypto", "CB", "Retrait en 1h"]
     },
-
+    {
+        title: "BetBlast",
+        bonus: "200% jusqu’à 7500€",
+        description: "50 Free Spins sur Wanted Dead or a Wild",
+        color: "linear-gradient(to right, #00c851, #007e33)",
+        logo: "/logos/betblast.png",
+        link: "https://bit.ly/SkrymiBetblast",
+        tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
+    },
     {
         title: "Fast Slots",
         bonus: " 200% de BONUS jusqu’à 5'000€",
@@ -58,15 +66,7 @@ const offers = [
         tags: ["Crypto", "CB"]
     },
 
-    {
-        title: "BetBlast",
-        bonus: "200% jusqu’à 7500€",
-        description: "50 Free Spins sur Wanted Dead or a Wild",
-        color: "linear-gradient(to right, #00c851, #007e33)",
-        logo: "/logos/betblast.png",
-        link: "https://bit.ly/SkrymiBetblast",
-        tags: ["Crypto", "CB", "Retrait en 1h", "VIP Rank"]
-    }
+
 ];
 
 export default offers;
