@@ -5,7 +5,7 @@ const offers = [
         description: "Jusqu'à 20% de cashback tout les lundi !",
         color: "linear-gradient(to right, #00c851, #007e33)",
         logo: "/logos/betify.jpg",
-        link: "https://record.betify.partners/_xfcc71saF9DqaEn2LeVpkWNd7ZgqdRLk/1/",
+        link: "https://bit.ly/BetifySkrymi",
         tags: ["Crypto", "CB", "VIP Rank"],
     },
 
@@ -25,7 +25,7 @@ const offers = [
         description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
         color: "linear-gradient(to right, #fcd34d, #fbbf24)",
         logo: "/logos/samba.png",
-        link: "https://record.discasinoaffiliates.com/_LLmqEcvAbica0J_CtyaYcGNd7ZgqdRLk/1/",
+        link: "https://bit.ly/SkrymiWinningz",
         tags: ["Crypto", "CB", "Retrait en 1h"]
     },
     {
@@ -43,7 +43,7 @@ const offers = [
         description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
         color: "linear-gradient(to right, #7f00ff, #e100ff)",
         logo: "/logos/fastslots.png",
-        link: "https://record.discasinoaffiliates.com/_LLmqEcvAbifk9mx2SfmU_WNd7ZgqdRLk/1/",
+        link: "https://bit.ly/FastSkrymi",
         tags: ["Crypto", "CB", "Retrait en 1h"]
     },
 
@@ -53,7 +53,7 @@ const offers = [
         description: "10% de CASHBACK INSTANTANÉ dès la création de votre compte + 50 Freespins",
         color: "linear-gradient(to right, #d4af37, #ffd700)",
         logo: "/logos/goldenpanda.png",
-        link: "https://record.discasinoaffiliates.com/_LLmqEcvAbid8F8NfJ-N_DWNd7ZgqdRLk/1/",
+        link: "https://bit.ly/SkrymiGolden",
         tags: ["Crypto", "CB", "Retrait en 1h"]
     },
     {
@@ -62,7 +62,7 @@ const offers = [
         description: "50 Free Spins sur Big Bass Bonanza + 10% Cashback chaque lundi",
         color: "linear-gradient(to right, #e63946, #3a86ff)",
         logo: "/logos/x7.png",
-        link: "https://record.sc2707.com/_gPnXtwJDC42RpNYGCjuhmmNd7ZgqdRLk/1/?pg=4",
+        link: "http://bit.ly/SkrymiX7",
         tags: ["Crypto", "CB"]
     },
 
